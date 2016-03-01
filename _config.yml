@@ -1,29 +1,41 @@
-name: paumaso
-favicon: null
-layout_spectrum: 0.7396144967060536
-typography_spectrum: 0.36814
 title: Pau Masó
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: paumaso
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 0.375
+  saturation: 0.4506362327374518
   brandColors:
     - '#fefefe'
     - '#0e0a07'
     - '#781523'
     - '#b48578'
     - '#514039'
-  brandStrength: 0.375
   lightness: 0.5625
-  saturation: 0.4506362327374518
-  rhythmicContrast: 0.40530354157090187
-purpose: []
+  rhythmicContrast: 0.4053035415709019
+typography_spectrum: 0.36814
